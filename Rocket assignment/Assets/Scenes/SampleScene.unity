@@ -310,18 +310,6 @@ Skybox:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   m_CustomSkybox: {fileID: 0}
---- !u!54 &1273570617 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 1273570617, guid: b34e23a87fe30724d8efc3187acf4e74,
-    type: 3}
-  m_PrefabInstance: {fileID: 8562734060939394989}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1273570618 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3778292479223042135, guid: b34e23a87fe30724d8efc3187acf4e74,
-    type: 3}
-  m_PrefabInstance: {fileID: 8562734060939394989}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1651625328
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -601,6 +589,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: landingspad
       objectReference: {fileID: 0}
+    - target: {fileID: 1880929612186156910, guid: 706ac714ce8a76c4ab21ab7898eecb28,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 706ac714ce8a76c4ab21ab7898eecb28, type: 3}
 --- !u!1001 &8562734060939394989
@@ -610,38 +603,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1273570616, guid: b34e23a87fe30724d8efc3187acf4e74, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1273570616, guid: b34e23a87fe30724d8efc3187acf4e74, type: 3}
-      propertyPath: transform
-      value: 
-      objectReference: {fileID: 1273570618}
-    - target: {fileID: 1273570616, guid: b34e23a87fe30724d8efc3187acf4e74, type: 3}
-      propertyPath: m_rigidbody
-      value: 
-      objectReference: {fileID: 1273570617}
-    - target: {fileID: 1273570617, guid: b34e23a87fe30724d8efc3187acf4e74, type: 3}
-      propertyPath: m_Mass
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1273570617, guid: b34e23a87fe30724d8efc3187acf4e74, type: 3}
-      propertyPath: m_UseGravity
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1273570617, guid: b34e23a87fe30724d8efc3187acf4e74, type: 3}
-      propertyPath: m_Constraints
-      value: 112
-      objectReference: {fileID: 0}
-    - target: {fileID: 1273570617, guid: b34e23a87fe30724d8efc3187acf4e74, type: 3}
-      propertyPath: m_IsKinematic
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1273570617, guid: b34e23a87fe30724d8efc3187acf4e74, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2674321635009131878, guid: b34e23a87fe30724d8efc3187acf4e74,
         type: 3}
       propertyPath: m_Name
@@ -702,10 +663,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8201527142753799891, guid: b34e23a87fe30724d8efc3187acf4e74,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 76ff537c8e1a84345868e6aeee938ab3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b34e23a87fe30724d8efc3187acf4e74, type: 3}
